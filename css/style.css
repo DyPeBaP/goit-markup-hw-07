@@ -1,6 +1,19 @@
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
 
+/* VARIABLES */
+:root {
+  --primary-text-color: #2196f3;
+  --accent-text-color: #188CE8;
+
+}
+
+
+/* var(--primary-text-color) */
+
+/* END VARIABLES */
+
+
 h1,
 h2,
 h3,
@@ -88,7 +101,7 @@ img {
   margin-right: 50px;
 }
 
-.img-logo-header {
+.navigation-img-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -105,7 +118,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tel-mail-head {
+.navigation-tel-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -283,7 +296,9 @@ img {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
+  margin-bottom: 50px;
 }
+
 .team-img {
   margin-top: 50px;
   display: flex;
@@ -494,7 +509,7 @@ img {
   align-items: center;
 }
 
-.section-padding {
+.section-social {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
@@ -664,19 +679,6 @@ img {
 .partners-link:hover .partners-thumb,
 .partners-link:focus .partners-thumb {
   border: 1px solid #2196f3;
-}
-
-.section-title {
-  color: var(--secondary-text-color);
-  font-size: 36px;
-  font-weight: 700;
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  min-width: 700px;
-  margin-top: 0px;
-  margin-bottom: 50px;
 }
 
 .partners {

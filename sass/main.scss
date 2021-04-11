@@ -1,10 +1,34 @@
-@import "./header";
-@import "./header";
-@import "./header";
-@import "./header";
-@import "./header";
-@import "./header";
-@import "./header";
-@import "./header";
-@import "./header";
-@import "./header";
+@import "./utils/variables";
+@import "./utils/common";
+@import "./utils/vissually-hidden";
+
+@import "./components/container";
+@import "./components/logo";
+@import "./components/headimg-h2";
+
+
+
+
+@import "./components/nav";
+
+@import "./components//hero";
+
+
+
+@import "./components/buttons";
+
+@import "./components/main";
+
+@import "./components/section-image";
+
+@import "./components/social";
+
+@import "./components/svg";
+
+@import "./components/partners";
+
+@import "./components/footer";
+
+@import "./components/modal-window";
+
+@import "./components/portfolio";
