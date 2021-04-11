@@ -11,6 +11,7 @@
   align-items: center;
   background-color: #ffffff;
 }
+
 .navigation {
   display: flex;
   align-items: center;
@@ -20,6 +21,7 @@
   display: flex;
   align-items: center;
 }
+
 .navigation-item:not(:last-child) {
   margin-right: 50px;
 }
