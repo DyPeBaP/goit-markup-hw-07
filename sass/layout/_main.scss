@@ -8,9 +8,12 @@
   align-items: center;
 }
 
-.main-list-text:not(:last-child) {
-  margin-right: 30px;
+.main-list-text {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
+
 
 .text-main {
   font-weight: 700;

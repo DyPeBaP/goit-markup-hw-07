@@ -51,9 +51,12 @@ justify-content: center;
     margin-top: 16px;
 }
 
-.social-links-list:not(:last-child) {
-margin-right: 10px;
+.social-links-list {
+    &:not(:last-child) {
+        margin-right: 10px;
+        }
 }
+
 
 .social-links {
     width: 44px;
