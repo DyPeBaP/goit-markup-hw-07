@@ -75,6 +75,10 @@ img {
   background-color: #ffffff;
 }
 
+.footer .container {
+  display: flex;
+}
+
 .navigation-img-logo {
   font-family: var(--secondary-front);
   font-weight: 700;
@@ -803,10 +807,6 @@ img {
 .footer-tel-mail-margin {
   margin-top: 9px;
   margin-bottom: 9px;
-}
-
-.footer .container {
-  display: flex;
 }
 
 .footer-wraper {
